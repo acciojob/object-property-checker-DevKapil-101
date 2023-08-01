@@ -1,19 +1,7 @@
 const sampleObject = { red: "#FF0000", green: "#00FF00", white: "#FFFFFF" };
 
 function hasKey(key) {
-  switch(key)
-  {
-	  case "red":
-		   return true;
-		  break;
-      case "green":
-		   return true;
-		  break;
-	  case "white":
-		  return true;
-		  break;
-		  default return false;  
-  }
+ return Object.prototype.hasOwnProperty.call(sampleObject, key);
 }
 
 // Do not change the code below
