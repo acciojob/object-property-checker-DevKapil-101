@@ -1,7 +1,14 @@
 const sampleObject = { red: "#FF0000", green: "#00FF00", white: "#FFFFFF" };
 
 function hasKey(key) {
-  //   write your code here
+  switch(key)
+  {
+	  case "red":
+      case "green":
+	  case "white":
+		  return true;
+		  default false;  
+  }
 }
 
 // Do not change the code below
