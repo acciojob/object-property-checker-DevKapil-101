@@ -5,11 +5,14 @@ function hasKey(key) {
   {
 	  case "red":
 		   return true;
+		  break;
       case "green":
 		   return true;
+		  break;
 	  case "white":
 		  return true;
-		  default false;  
+		  break;
+		  default return false;  
   }
 }
 
