@@ -4,7 +4,9 @@ function hasKey(key) {
   switch(key)
   {
 	  case "red":
+		   return true;
       case "green":
+		   return true;
 	  case "white":
 		  return true;
 		  default false;  
